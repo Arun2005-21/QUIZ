@@ -1,42 +1,42 @@
 const questions = [
   {
-    question : "Which is the largest animal in the world",
+    question : "Which of the following is not a Java primitive data type?",
     answers:[
-      {text: "Shark", correct: false},
-      {text: "Blue whale", correct: true},
-      {text: "Elephant", correct: false},
-      {text: "Giraffe", correct: false},
+      {text: "int", correct: false},
+      {text: "String", correct: true},
+      {text: "boolean", correct: false},
+      {text: "float", correct: false},
 
     ]
    
   },
   {
-    question : "Which is the smallest country in the world",
+    question : "Which method is used to start a thread execution in Java?",
     answers:[
-      {text: "Vatican", correct: true},
-      {text: "Bhutan", correct: false},
-      {text: "Nepal", correct: false},
-      {text: "Shri lanka", correct: false},
+      {text: "Start()", correct: true},
+      {text: "run()", correct: false},
+      {text: "init() ", correct: false},
+      {text: "main()", correct: false},
 
     ] 
   },
   {
-    question : "Which is the largest desert in the world",
+    question : "What is the default value of a local variable in Java?",
     answers:[
-      {text: "Kalahari", correct: false},
-      {text: "Gobi", correct: false},
-      {text: "Sahara", correct: false},
-      {text: "Antarctica", correct: true},
+      {text: "null", correct: false},
+      {text: "0", correct: false},
+      {text: "undefined", correct: false},
+      {text: "No default value", correct: true},
 
     ]
   },
   {
-    question : "Which is the smallest continent in the world",
+    question : "Which of the following is used to handle exceptions in Java?",
     answers:[
-      {text: "Asia", correct: false},
-      {text: "Australia", correct: true},
-      {text: "Arctic", correct: false},
-      {text: "Africa", correct: false},
+      {text: "if-else", correct: false},
+      {text: "try-catch", correct: true},
+      {text: "switch-case", correct: false},
+      {text: "for-loop", correct: false},
 
     ]
   }
